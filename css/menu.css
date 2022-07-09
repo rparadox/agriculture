@@ -1,0 +1,556 @@
+@keyframes animate {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+/*XL*/
+@media (min-width: 1200px) {
+    #open, #close, label.open, label.close {
+        display: none;
+    }
+
+    section.menu {
+        width: 100%;
+        height: 100px;
+    }
+
+    section.menu > nav {
+        width: 100%;
+        height: inherit;
+    }
+
+    section.menu > nav > div:nth-of-type(1) {
+        height: inherit;
+    }
+
+    section.menu > nav > div:nth-of-type(1) > a:nth-of-type(2) {
+        text-decoration: none;
+        color: #40e0d0;
+        font-size: 15px;
+    }
+
+    section.menu > nav > div:nth-of-type(2) {
+        height: inherit;
+    }
+
+    section.menu > nav > div:nth-of-type(2) > ul {
+        height: 100%;
+        list-style-type: none;
+        font-size: 12px;
+        color: #aaaaaa;
+    }
+
+    section.menu > nav > div:nth-of-type(2) > ul > li:nth-last-of-type(1) {
+        color: #39D5C5;
+        font-size: 15px;
+    }
+
+    section.menu > nav > div:nth-of-type(2) > ul > li > a {
+        text-decoration: none;
+        font-size: 12px;
+        color: #aaaaaa;
+        transition: all 300ms linear;
+    }
+
+    section.menu > nav > div:nth-of-type(2) > ul > li > a:hover {
+        color: #00BFFF;
+    }
+
+    section.menu > nav > div:nth-of-type(3) div.modal-body > label > input[type=search] {
+        border-radius: 0 15px 15px 0;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        outline: none;
+        height: 30px;
+        background-color: #00BFFF;
+        transition: all 300ms linear
+    }
+
+    section.menu > nav > div:nth-of-type(3) div.modal-body > label > input[type=search]:focus {
+        background-color: #0c5973;
+    }
+
+    section.menu > nav > div:nth-of-type(3) div.modal-body > label > input[type=search]::placeholder {
+        color: white;
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-weight: lighter;
+        font-size: 12px;
+    }
+
+    section.menu > nav > div:nth-of-type(3) div.modal-body > label > input[type=submit] {
+        border-radius: 15px 0 0 15px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        outline: none;
+        height: 30px;
+        background-color: #00BFFF;
+        color: white;
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+    }
+}
+
+/*end XL*/
+/*LG*/
+@media (min-width: 992px) and (max-width: 1200px) {
+    #open, #close, label.open, label.close {
+        display: none;
+    }
+
+    section.menu {
+        width: 100%;
+        height: 100px;
+    }
+
+    section.menu > nav {
+        width: 100%;
+        height: inherit;
+    }
+
+    section.menu > nav > div:nth-of-type(1) {
+        height: inherit;
+    }
+
+    section.menu > nav > div:nth-of-type(1) > a:nth-of-type(2) {
+        text-decoration: none;
+        color: #40e0d0;
+        font-size: 15px;
+    }
+
+    section.menu > nav > div:nth-of-type(2) {
+        height: inherit;
+    }
+
+    section.menu > nav > div:nth-of-type(2) > ul {
+        height: 100%;
+        list-style-type: none;
+        font-size: 10px;
+        color: #aaaaaa;
+    }
+
+    section.menu > nav > div:nth-of-type(2) > ul > li:nth-last-of-type(1) {
+        color: #39D5C5;
+        font-size: 13px;
+    }
+
+    section.menu > nav > div:nth-of-type(2) > ul > li > a {
+        text-decoration: none;
+        font-size: 10px;
+        color: #aaaaaa;
+        transition: all 300ms linear;
+    }
+
+    section.menu > nav > div:nth-of-type(2) > ul > li > a:hover {
+        color: #00BFFF;
+    }
+
+    section.menu > nav > div:nth-of-type(3) div.modal-body > label > input[type=search] {
+        border-radius: 0 15px 15px 0;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        outline: none;
+        height: 30px;
+        background-color: #00BFFF;
+        transition: all 300ms linear
+    }
+
+    section.menu > nav > div:nth-of-type(3) div.modal-body > label > input[type=search]:focus {
+        background-color: #0c5973;
+    }
+
+    section.menu > nav > div:nth-of-type(3) div.modal-body > label > input[type=search]::placeholder {
+        color: white;
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-weight: lighter;
+        font-size: 12px;
+    }
+
+    section.menu > nav > div:nth-of-type(3) div.modal-body > label > input[type=submit] {
+        border-radius: 15px 0 0 15px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        outline: none;
+        height: 30px;
+        background-color: #00BFFF;
+        color: white;
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+    }
+}
+
+/*end LG*/
+/*MD*/
+@media (min-width: 768px) and (max-width: 992px) {
+    #open, #close, label.open, label.close {
+        display: none;
+    }
+
+    section.menu {
+        width: 100%;
+        height: 100px;
+    }
+
+    section.menu > nav {
+        width: 100%;
+        height: inherit;
+    }
+
+    section.menu > nav > div:nth-of-type(1) {
+        height: inherit;
+    }
+
+    section.menu > nav > div:nth-of-type(1) > a:nth-of-type(1) > img {
+        width: 60px;
+        height: 46px;
+    }
+
+    section.menu > nav > div:nth-of-type(1) > a:nth-of-type(2) {
+        text-decoration: none;
+        color: #40e0d0;
+        font-size: 9px;
+    }
+
+    section.menu > nav > div:nth-of-type(2) {
+        height: inherit;
+    }
+
+    section.menu > nav > div:nth-of-type(2) > ul {
+        height: 100%;
+        list-style-type: none;
+        font-size: 10px;
+        color: #aaaaaa;
+    }
+
+    section.menu > nav > div:nth-of-type(2) > ul > li:nth-last-of-type(1) {
+        color: #39D5C5;
+        font-size: 13px;
+    }
+
+    section.menu > nav > div:nth-of-type(2) > ul > li > a {
+        text-decoration: none;
+        font-size: 10px;
+        color: #aaaaaa;
+        transition: all 300ms linear;
+    }
+
+    section.menu > nav > div:nth-of-type(2) > ul > li > a:hover {
+        color: #00BFFF;
+    }
+
+    section.menu > nav > div:nth-of-type(3) div.modal-body > label > input[type=search] {
+        border-radius: 0 15px 15px 0;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        outline: none;
+        height: 30px;
+        background-color: #00BFFF;
+        transition: all 300ms linear
+    }
+
+    section.menu > nav > div:nth-of-type(3) div.modal-body > label > input[type=search]:focus {
+        background-color: #0c5973;
+    }
+
+    section.menu > nav > div:nth-of-type(3) div.modal-body > label > input[type=search]::placeholder {
+        color: white;
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-weight: lighter;
+        font-size: 12px;
+    }
+
+    section.menu > nav > div:nth-of-type(3) div.modal-body > label > input[type=submit] {
+        border-radius: 15px 0 0 15px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        outline: none;
+        height: 30px;
+        background-color: #00BFFF;
+        color: white;
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+    }
+}
+
+/*end MD*/
+/*SM*/
+@media (min-width: 576px) and (max-width: 768px) {
+
+    section.menu {
+        width: 100%;
+        position: relative;
+    }
+
+    section.menu > nav {
+        width: 100%;
+    }
+
+    section.menu > nav > label {
+        position: absolute;
+        top: 0;
+        left: 0;
+        cursor: pointer;
+    }
+
+    section.menu > nav > label > i {
+        font-size: 30px;
+    }
+
+    section.menu > nav > div:nth-of-type(1) {
+    }
+
+    section.menu > nav > div:nth-of-type(1) > a:nth-of-type(2) {
+        text-decoration: none;
+        color: #40e0d0;
+        font-size: 15px;
+    }
+
+    section.menu > nav > div:nth-of-type(2) {
+        position: absolute;
+        z-index: 999;
+        background-color: white;
+        transition: all 300ms linear;
+        transform: scale(0);
+        left: 0;
+    }
+
+    #open:checked ~ div:nth-of-type(2) {
+        animation-name: animate;
+        animation-duration: 300ms;
+        animation-timing-function: linear;
+        transform: scale(1);
+        transform-origin: top left;
+    }
+
+    #close:checked ~ div:nth-of-type(2) {
+        animation-name: animate1;
+        animation-duration: 300ms;
+        animation-timing-function: linear;
+        transform: scale(0);
+        transform-origin: top left;
+    }
+
+    section.menu > nav > div:nth-of-type(2) > label {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        cursor: pointer;
+        z-index: 1;
+        background-color: white;
+    }
+
+    section.menu > nav > div:nth-of-type(2) > label > i {
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+        background-color: white;
+        color: black;
+    }
+
+    #open, #close {
+        display: none;
+    }
+
+    section.menu > nav > div:nth-of-type(2) > ul {
+        list-style-type: none;
+        font-size: 12px;
+        color: #aaaaaa;
+    }
+
+    section.menu > nav > div:nth-of-type(2) > ul > li {
+        height: 30px;
+    }
+
+    section.menu > nav > div:nth-of-type(2) > ul > li:nth-last-of-type(1) {
+        color: #39D5C5;
+        font-size: 15px;
+        display: block !important;
+    }
+
+    section.menu > nav > div:nth-of-type(2) > ul > li:nth-of-type(even) {
+        display: none;
+    }
+
+    section.menu > nav > div:nth-of-type(2) > ul > li > a {
+        text-decoration: none;
+        font-size: 12px;
+        color: #aaaaaa;
+        transition: all 300ms linear;
+    }
+
+    section.menu > nav > div:nth-of-type(2) > ul > li > a:hover {
+        color: #00BFFF;
+    }
+
+    section.menu > nav > div:nth-of-type(3) div.modal-body > label > input[type=search] {
+        border-radius: 0 15px 15px 0;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        outline: none;
+        height: 30px;
+        background-color: #00BFFF;
+        transition: all 300ms linear
+    }
+
+    section.menu > nav > div:nth-of-type(3) div.modal-body > label > input[type=search]:focus {
+        background-color: #0c5973;
+    }
+
+    section.menu > nav > div:nth-of-type(3) div.modal-body > label > input[type=search]::placeholder {
+        color: white;
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-weight: lighter;
+        font-size: 12px;
+    }
+
+    section.menu > nav > div:nth-of-type(3) div.modal-body > label > input[type=submit] {
+        border-radius: 15px 0 0 15px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        outline: none;
+        height: 30px;
+        background-color: #00BFFF;
+        color: white;
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+    }
+}
+
+/*end SM*/
+/*XS*/
+@media (max-width: 576px) {
+
+    section.menu {
+        width: 100%;
+        position: relative;
+    }
+
+    section.menu > nav {
+        width: 100%;
+    }
+
+    section.menu > nav > label {
+        position: absolute;
+        top: 0;
+        left: 0;
+        cursor: pointer;
+    }
+
+    section.menu > nav > label > i {
+        font-size: 30px;
+    }
+
+    section.menu > nav > div:nth-of-type(1) {
+    }
+
+    section.menu > nav > div:nth-of-type(1) > a:nth-of-type(2) {
+        text-decoration: none;
+        color: #40e0d0;
+        font-size: 15px;
+    }
+
+    section.menu > nav > div:nth-of-type(2) {
+        position: absolute;
+        z-index: 999;
+        background-color: white;
+        transition: all 300ms linear;
+        transform: scale(0);
+        left: 0;
+    }
+
+    #open:checked ~ div:nth-of-type(2) {
+        animation-name: animate;
+        animation-duration: 300ms;
+        animation-timing-function: linear;
+        transform: scale(1);
+        transform-origin: top left;
+    }
+
+    #close:checked ~ div:nth-of-type(2) {
+        animation-name: animate1;
+        animation-duration: 300ms;
+        animation-timing-function: linear;
+        transform: scale(0);
+        transform-origin: top left;
+    }
+
+    section.menu > nav > div:nth-of-type(2) > label {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        cursor: pointer;
+        z-index: 1;
+        background-color: white;
+    }
+
+    section.menu > nav > div:nth-of-type(2) > label > i {
+        font-size: 30px;
+    }
+
+    #open, #close {
+        display: none;
+    }
+
+    section.menu > nav > div:nth-of-type(2) > ul {
+        list-style-type: none;
+        font-size: 12px;
+        color: #aaaaaa;
+    }
+
+    section.menu > nav > div:nth-of-type(2) > ul > li {
+        height: 30px;
+    }
+
+    section.menu > nav > div:nth-of-type(2) > ul > li:nth-last-of-type(1) {
+        color: #39D5C5;
+        font-size: 15px;
+        display: block !important;
+    }
+
+    section.menu > nav > div:nth-of-type(2) > ul > li:nth-of-type(even) {
+        display: none;
+    }
+
+    section.menu > nav > div:nth-of-type(2) > ul > li > a {
+        text-decoration: none;
+        font-size: 12px;
+        color: #aaaaaa;
+        transition: all 300ms linear;
+    }
+
+    section.menu > nav > div:nth-of-type(2) > ul > li > a:hover {
+        color: #00BFFF;
+    }
+
+    section.menu > nav > div:nth-of-type(3) div.modal-body > label > input[type=search] {
+        border-radius: 0 15px 15px 0;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        outline: none;
+        height: 30px;
+        background-color: #00BFFF;
+        transition: all 300ms linear
+    }
+
+    section.menu > nav > div:nth-of-type(3) div.modal-body > label > input[type=search]:focus {
+        background-color: #0c5973;
+    }
+
+    section.menu > nav > div:nth-of-type(3) div.modal-body > label > input[type=search]::placeholder {
+        color: white;
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-weight: lighter;
+        font-size: 12px;
+    }
+
+    section.menu > nav > div:nth-of-type(3) div.modal-body > label > input[type=submit] {
+        border-radius: 15px 0 0 15px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        outline: none;
+        height: 30px;
+        background-color: #00BFFF;
+        color: white;
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+    }
+}
+
+/*end XS*/

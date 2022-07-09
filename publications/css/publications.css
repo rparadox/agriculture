@@ -1,0 +1,499 @@
+/*XL*/
+@media (min-width: 1200px) {
+    section.publications {
+        width: 100%;
+    }
+
+    section.publications > p {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #aaaaaa;
+        line-height: 29px;
+    }
+
+    section.publications > h3 {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 14px;
+        color: #aaaaaa;
+    }
+
+    section.publications > ul > li {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #aaaaaa;
+        line-height: 25px;
+    }
+
+    section.publications > ul > li::marker {
+        color: #40e0d0;
+    }
+
+    section.publications > div {
+        width: 100%;
+    }
+
+    section.publications > div > div:nth-of-type(1) {
+        width: 100%;
+    }
+
+    section.publications > div > div:nth-of-type(1) > h4 {
+        font-family: "IRANSansWeb Bold", sans-serif;
+        font-size: 13px;
+        color: #888888;
+    }
+
+    section.publications > div > div:nth-of-type(1) > h4 > i {
+        color: #40e0d0;
+        font-size: 20px;
+    }
+
+    section.publications > div > div:nth-of-type(1) > div {
+        width: 100%;
+        height: 1px;
+        background-color: #888888;
+    }
+
+    section.publications > div > div:nth-of-type(2) {
+
+    }
+
+    section.publications > div > div:nth-of-type(2) > div {
+
+    }
+
+    section.publications > div > div:nth-of-type(2) > div > div:nth-of-type(2) > h5 {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #009acd;
+    }
+
+    section.publications > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div {
+
+    }
+
+    section.publications > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > span:nth-of-type(1) {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #aaaaaa;
+    }
+
+    section.publications > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > span:nth-of-type(2) {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #333333;
+    }
+
+    section.publications > div > div:nth-of-type(2) > div > div:nth-of-type(2) > a {
+        background-color: #aaaaaa;
+        color: white;
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        transition: all 300ms linear;
+    }
+
+    section.publications > div > div:nth-of-type(2) > div > div:nth-of-type(2) > a:hover {
+        background-color: #40e0d0;
+    }
+}
+/*end XL*/
+/*LG*/
+@media (min-width: 992px) and (max-width: 1200px) {
+    section.publications {
+        width: 100%;
+    }
+
+    section.publications > p {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #aaaaaa;
+        line-height: 29px;
+    }
+
+    section.publications > h3 {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 14px;
+        color: #aaaaaa;
+    }
+
+    section.publications > ul > li {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #aaaaaa;
+        line-height: 25px;
+    }
+
+    section.publications > ul > li::marker {
+        color: #40e0d0;
+    }
+
+    section.publications > div {
+        width: 100%;
+    }
+
+    section.publications > div > div:nth-of-type(1) {
+        width: 100%;
+    }
+
+    section.publications > div > div:nth-of-type(1) > h4 {
+        font-family: "IRANSansWeb Bold", sans-serif;
+        font-size: 13px;
+        color: #888888;
+    }
+
+    section.publications > div > div:nth-of-type(1) > h4 > i {
+        color: #40e0d0;
+        font-size: 20px;
+    }
+
+    section.publications > div > div:nth-of-type(1) > div {
+        width: 100%;
+        height: 1px;
+        background-color: #888888;
+    }
+
+    section.publications > div > div:nth-of-type(2) {
+
+    }
+
+    section.publications > div > div:nth-of-type(2) > div > div:nth-of-type(1) > img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    section.publications > div > div:nth-of-type(2) > div > div:nth-of-type(2) > h5 {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #009acd;
+    }
+
+    section.publications > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div {
+
+    }
+
+    section.publications > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > span:nth-of-type(1) {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #aaaaaa;
+    }
+
+    section.publications > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > span:nth-of-type(2) {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #333333;
+    }
+
+    section.publications > div > div:nth-of-type(2) > div > div:nth-of-type(2) > a {
+        background-color: #aaaaaa;
+        color: white;
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        transition: all 300ms linear;
+    }
+
+    section.publications > div > div:nth-of-type(2) > div > div:nth-of-type(2) > a:hover {
+        background-color: #40e0d0;
+    }
+}
+/*end LG*/
+/*MD*/
+@media (min-width: 768px) and (max-width: 992px) {
+    section.publications {
+        width: 100%;
+    }
+
+    section.publications > p {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #aaaaaa;
+        line-height: 29px;
+    }
+
+    section.publications > h3 {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 14px;
+        color: #aaaaaa;
+    }
+
+    section.publications > ul > li {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #aaaaaa;
+        line-height: 25px;
+    }
+
+    section.publications > ul > li::marker {
+        color: #40e0d0;
+    }
+
+    section.publications > div {
+        width: 100%;
+    }
+
+    section.publications > div > div:nth-of-type(1) {
+        width: 100%;
+    }
+
+    section.publications > div > div:nth-of-type(1) > h4 {
+        font-family: "IRANSansWeb Bold", sans-serif;
+        font-size: 13px;
+        color: #888888;
+    }
+
+    section.publications > div > div:nth-of-type(1) > h4 > i {
+        color: #40e0d0;
+        font-size: 20px;
+    }
+
+    section.publications > div > div:nth-of-type(1) > div {
+        width: 100%;
+        height: 1px;
+        background-color: #888888;
+    }
+
+    section.publications > div > div:nth-of-type(2) {
+
+    }
+
+    section.publications > div > div:nth-of-type(2) > div {
+
+    }
+
+    section.publications > div > div:nth-of-type(2) > div > div:nth-of-type(2) > h5 {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #009acd;
+    }
+
+    section.publications > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div {
+
+    }
+
+    section.publications > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > span:nth-of-type(1) {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #aaaaaa;
+    }
+
+    section.publications > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > span:nth-of-type(2) {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #333333;
+    }
+
+    section.publications > div > div:nth-of-type(2) > div > div:nth-of-type(2) > a {
+        background-color: #aaaaaa;
+        color: white;
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        transition: all 300ms linear;
+    }
+
+    section.publications > div > div:nth-of-type(2) > div > div:nth-of-type(2) > a:hover {
+        background-color: #40e0d0;
+    }
+}
+/*end MD*/
+/*SM*/
+@media (min-width: 576px) and (max-width: 768px) {
+    section.publications {
+        width: 100%;
+    }
+
+    section.publications > p {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #aaaaaa;
+        line-height: 29px;
+    }
+
+    section.publications > h3 {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 14px;
+        color: #aaaaaa;
+    }
+
+    section.publications > ul > li {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #aaaaaa;
+        line-height: 25px;
+    }
+
+    section.publications > ul > li::marker {
+        color: #40e0d0;
+    }
+
+    section.publications > div {
+        width: 100%;
+    }
+
+    section.publications > div > div:nth-of-type(1) {
+        width: 100%;
+    }
+
+    section.publications > div > div:nth-of-type(1) > h4 {
+        font-family: "IRANSansWeb Bold", sans-serif;
+        font-size: 13px;
+        color: #888888;
+    }
+
+    section.publications > div > div:nth-of-type(1) > h4 > i {
+        color: #40e0d0;
+        font-size: 20px;
+    }
+
+    section.publications > div > div:nth-of-type(1) > div {
+        width: 100%;
+        height: 1px;
+        background-color: #888888;
+    }
+
+    section.publications > div > div:nth-of-type(2) {
+
+    }
+
+    section.publications > div > div:nth-of-type(2) > div {
+
+    }
+
+    section.publications > div > div:nth-of-type(2) > div > div:nth-of-type(2) > h5 {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #009acd;
+    }
+
+    section.publications > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div {
+
+    }
+
+    section.publications > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > span:nth-of-type(1) {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #aaaaaa;
+    }
+
+    section.publications > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > span:nth-of-type(2) {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #333333;
+    }
+
+    section.publications > div > div:nth-of-type(2) > div > div:nth-of-type(2) > a {
+        background-color: #aaaaaa;
+        color: white;
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        transition: all 300ms linear;
+    }
+
+    section.publications > div > div:nth-of-type(2) > div > div:nth-of-type(2) > a:nth-of-type(1) {
+        margin-top: 80px;
+    }
+
+    section.publications > div > div:nth-of-type(2) > div > div:nth-of-type(2) > a:hover {
+        background-color: #40e0d0;
+    }
+}
+/*end SM*/
+/*XS*/
+@media (max-width: 576px) {
+    section.publications {
+        width: 100%;
+    }
+
+    section.publications > p {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #aaaaaa;
+        line-height: 29px;
+    }
+
+    section.publications > h3 {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 14px;
+        color: #aaaaaa;
+    }
+
+    section.publications > ul > li {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #aaaaaa;
+        line-height: 25px;
+    }
+
+    section.publications > ul > li::marker {
+        color: #40e0d0;
+    }
+
+    section.publications > div {
+        width: 100%;
+    }
+
+    section.publications > div > div:nth-of-type(1) {
+        width: 100%;
+    }
+
+    section.publications > div > div:nth-of-type(1) > h4 {
+        font-family: "IRANSansWeb Bold", sans-serif;
+        font-size: 13px;
+        color: #888888;
+    }
+
+    section.publications > div > div:nth-of-type(1) > h4 > i {
+        color: #40e0d0;
+        font-size: 20px;
+    }
+
+    section.publications > div > div:nth-of-type(1) > div {
+        width: 100%;
+        height: 1px;
+        background-color: #888888;
+    }
+
+    section.publications > div > div:nth-of-type(2) {
+
+    }
+
+    section.publications > div > div:nth-of-type(2) > div {
+
+    }
+
+    section.publications > div > div:nth-of-type(2) > div > div:nth-of-type(2) > h5 {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #009acd;
+    }
+
+    section.publications > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div {
+
+    }
+
+    section.publications > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > span:nth-of-type(1) {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #aaaaaa;
+    }
+
+    section.publications > div > div:nth-of-type(2) > div > div:nth-of-type(2) > div > span:nth-of-type(2) {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #333333;
+    }
+
+    section.publications > div > div:nth-of-type(2) > div > div:nth-of-type(2) > a {
+        background-color: #aaaaaa;
+        color: white;
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        transition: all 300ms linear;
+    }
+
+    section.publications > div > div:nth-of-type(2) > div > div:nth-of-type(2) > a:nth-of-type(1) {
+        margin-top: 30px;
+    }
+
+    section.publications > div > div:nth-of-type(2) > div > div:nth-of-type(2) > a:hover {
+        background-color: #40e0d0;
+    }
+}
+/*end XS*/

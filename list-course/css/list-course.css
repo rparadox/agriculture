@@ -1,0 +1,350 @@
+/*XL*/
+@media (min-width: 1200px) {
+    section.list-course {
+        width: 100%;
+    }
+
+    section.list-course > div {
+        width: 100%;
+        border-bottom: 1px solid #eeeeee;
+    }
+
+    section.list-course > div > h3 {
+        font-family: "IRANSansWeb Bold", sans-serif;
+        font-size: 13px;
+        color: #fe4365;
+    }
+
+    section.list-course > div > p {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #aaaaaa;
+        line-height: 29px;
+    }
+
+    section.list-course > div > ul {
+        width: 100%;
+    }
+
+    section.list-course > div > ul > li {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #aaaaaa;
+    }
+
+    section.list-course > div > ul > li::marker {
+        color: #fe4365;
+    }
+
+    section.list-course > div > div {
+        width: 100%;
+    }
+
+    section.list-course > div > div > div {
+        width: 100%;
+    }
+
+    section.list-course > div > div > div > div {
+        width: 100%;
+    }
+
+    section.list-course > div > div > div > div > span:nth-of-type(1) {
+        font-family: "IRANSansWeb Bold", sans-serif;
+        font-size: 11px;
+        color: #fe4365;
+    }
+
+    section.list-course > div > div > div > div > span:nth-of-type(2) {
+        font-family: "IRANSansWeb Bold", sans-serif;
+        font-size: 11px;
+        color: #aaaaaa;
+    }
+
+    section.list-course > div > div > a {
+        color: #fe4365;
+        font-family: "IRANSansWeb Bold", sans-serif;
+        font-size: 11px;
+    }
+}
+
+/*end XL*/
+/*LG*/
+@media (min-width: 992px) and (max-width: 1200px) {
+    section.list-course {
+        width: 100%;
+    }
+
+    section.list-course > div {
+        width: 100%;
+        border-bottom: 1px solid #eeeeee;
+    }
+
+    section.list-course > div > h3 {
+        font-family: "IRANSansWeb Bold", sans-serif;
+        font-size: 13px;
+        color: #fe4365;
+    }
+
+    section.list-course > div > p {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #aaaaaa;
+        line-height: 29px;
+    }
+
+    section.list-course > div > ul {
+        width: 100%;
+    }
+
+    section.list-course > div > ul > li {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #aaaaaa;
+    }
+
+    section.list-course > div > ul > li::marker {
+        color: #fe4365;
+    }
+
+    section.list-course > div > div {
+        width: 100%;
+    }
+
+    section.list-course > div > div > div {
+        width: 100%;
+    }
+
+    section.list-course > div > div > div > div {
+        width: 100%;
+    }
+
+    section.list-course > div > div > div > div > span:nth-of-type(1) {
+        font-family: "IRANSansWeb Bold", sans-serif;
+        font-size: 11px;
+        color: #fe4365;
+    }
+
+    section.list-course > div > div > div > div > span:nth-of-type(2) {
+        font-family: "IRANSansWeb Bold", sans-serif;
+        font-size: 11px;
+        color: #aaaaaa;
+    }
+
+    section.list-course > div > div > a {
+        color: #fe4365;
+        font-family: "IRANSansWeb Bold", sans-serif;
+        font-size: 11px;
+    }
+}
+
+/*end LG*/
+/*MD*/
+@media (min-width: 768px) and (max-width: 992px) {
+    section.list-course {
+        width: 100%;
+    }
+
+    section.list-course > div {
+        width: 100%;
+        border-bottom: 1px solid #eeeeee;
+    }
+
+    section.list-course > div > h3 {
+        font-family: "IRANSansWeb Bold", sans-serif;
+        font-size: 13px;
+        color: #fe4365;
+    }
+
+    section.list-course > div > p {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #aaaaaa;
+        line-height: 29px;
+    }
+
+    section.list-course > div > ul {
+        width: 100%;
+    }
+
+    section.list-course > div > ul > li {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #aaaaaa;
+    }
+
+    section.list-course > div > ul > li::marker {
+        color: #fe4365;
+    }
+
+    section.list-course > div > div {
+        width: 100%;
+    }
+
+    section.list-course > div > div > div {
+        width: 100%;
+    }
+
+    section.list-course > div > div > div > div {
+        width: 100%;
+    }
+
+    section.list-course > div > div > div > div > span:nth-of-type(1) {
+        font-family: "IRANSansWeb Bold", sans-serif;
+        font-size: 11px;
+        color: #fe4365;
+    }
+
+    section.list-course > div > div > div > div > span:nth-of-type(2) {
+        font-family: "IRANSansWeb Bold", sans-serif;
+        font-size: 11px;
+        color: #aaaaaa;
+    }
+
+    section.list-course > div > div > a {
+        color: #fe4365;
+        font-family: "IRANSansWeb Bold", sans-serif;
+        font-size: 11px;
+    }
+}
+
+/*end MD*/
+/*SM*/
+@media (min-width: 576px) and (max-width: 768px) {
+    section.list-course {
+        width: 100%;
+    }
+
+    section.list-course > div {
+        width: 100%;
+        border-bottom: 1px solid #eeeeee;
+    }
+
+    section.list-course > div > h3 {
+        font-family: "IRANSansWeb Bold", sans-serif;
+        font-size: 13px;
+        color: #fe4365;
+    }
+
+    section.list-course > div > p {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #aaaaaa;
+        line-height: 29px;
+    }
+
+    section.list-course > div > ul {
+        width: 100%;
+    }
+
+    section.list-course > div > ul > li {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #aaaaaa;
+    }
+
+    section.list-course > div > ul > li::marker {
+        color: #fe4365;
+    }
+
+    section.list-course > div > div {
+        width: 100%;
+    }
+
+    section.list-course > div > div > div {
+        width: 100%;
+    }
+
+    section.list-course > div > div > div > div {
+        width: 100%;
+    }
+
+    section.list-course > div > div > div > div > span:nth-of-type(1) {
+        font-family: "IRANSansWeb Bold", sans-serif;
+        font-size: 11px;
+        color: #fe4365;
+    }
+
+    section.list-course > div > div > div > div > span:nth-of-type(2) {
+        font-family: "IRANSansWeb Bold", sans-serif;
+        font-size: 9px;
+        color: #aaaaaa;
+    }
+
+    section.list-course > div > div > a {
+        color: #fe4365;
+        font-family: "IRANSansWeb Bold", sans-serif;
+        font-size: 11px;
+    }
+}
+
+/*end SM*/
+/*XS*/
+@media (max-width: 576px) {
+    section.list-course {
+        width: 100%;
+    }
+
+    section.list-course > div {
+        width: 100%;
+        border-bottom: 1px solid #eeeeee;
+    }
+
+    section.list-course > div > h3 {
+        font-family: "IRANSansWeb Bold", sans-serif;
+        font-size: 13px;
+        color: #fe4365;
+    }
+
+    section.list-course > div > p {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #aaaaaa;
+        line-height: 29px;
+    }
+
+    section.list-course > div > ul {
+        width: 100%;
+    }
+
+    section.list-course > div > ul > li {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #aaaaaa;
+    }
+
+    section.list-course > div > ul > li::marker {
+        color: #fe4365;
+    }
+
+    section.list-course > div > div {
+        width: 100%;
+    }
+
+    section.list-course > div > div > div {
+        width: 100%;
+    }
+
+    section.list-course > div > div > div > div {
+        width: 100%;
+    }
+
+    section.list-course > div > div > div > div > span:nth-of-type(1) {
+        font-family: "IRANSansWeb Bold", sans-serif;
+        font-size: 11px;
+        color: #fe4365;
+    }
+
+    section.list-course > div > div > div > div > span:nth-of-type(2) {
+        font-family: "IRANSansWeb Bold", sans-serif;
+        font-size: 9px;
+        color: #aaaaaa;
+    }
+
+    section.list-course > div > div > a {
+        color: #fe4365;
+        font-family: "IRANSansWeb Bold", sans-serif;
+        font-size: 10px;
+    }
+}
+
+/*end XS*/

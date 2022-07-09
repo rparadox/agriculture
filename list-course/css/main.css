@@ -1,0 +1,9 @@
+@import url(../../css/preset.css);
+@import url(../../css/header.css);
+@import url(../../css/menu.css);
+@import url(../../css/footer.css);
+@import "breadcrumb.css";
+@import url(../../contact/css/aside.css);
+@import "serach.css";
+@import "list-course.css";
+@import "pagination.css";

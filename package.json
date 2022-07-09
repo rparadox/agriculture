@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@popperjs/core": "^2.11.2",
+    "bootstrap": "^4.6.1",
+    "jquery": "^3.6.0",
+    "live-server": "^1.2.1",
+    "swiper": "^8.0.3"
+  },
+  "name": "project-web-2-bootstrap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yousof Davamkar",
+  "license": "ISC",
+  "description": ""
+}

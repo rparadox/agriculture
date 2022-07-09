@@ -1,0 +1,15 @@
+section.page > nav > ul > li > a {
+    color: #fe4365;
+    transition: all 300ms linear;
+    border: 1px solid #fe4365;
+}
+
+section.page > nav > ul > li:hover > a:not(.border-0) {
+    color: white;
+    background-color: #fe4365;
+}
+
+section.page > nav > ul > li:hover > a.border-0 {
+    color: #fe4365;
+    background-color: white;
+}

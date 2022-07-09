@@ -1,0 +1,10 @@
+@import url(../../css/preset.css);
+@import url(../../css/header.css);
+@import url(../../css/menu.css);
+@import url(../../css/footer.css);
+@import url(../../contact/css/aside.css);
+@import "breadcrumb.css";
+@import "paraghraph.css";
+@import "slider1.css";
+@import "slider2.css";
+@import "slider3.css";

@@ -1,0 +1,685 @@
+section.research .swiper-button-next:after, section.research .swiper-button-prev:after {
+    display: none;
+}
+
+/*XL*/
+@media (min-width: 1200px) {
+    section.research {
+        width: 100%;
+        margin-top: 150px;
+        overflow-x: hidden;
+    }
+
+    section.research > i {
+        color: #40e0d0;
+        font-size: 2rem;
+    }
+
+    section.research > div {
+        width: 200px;
+        height: 1px;
+        background-color: #dddddd;
+        position: relative;
+    }
+
+    section.research > div::after {
+        content: "";
+        width: 50px;
+        height: 3px;
+        background-color: #40e0d0;
+        position: absolute;
+        top: -100%;
+    }
+
+    section.research > h2 {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        color: #888888;
+        font-size: 30px;
+    }
+
+    section.research > a {
+        font-family: "IRANSansWeb Light", sans-serif;
+        color: #00bfff;
+        font-size: 13px;
+    }
+
+    section.research .swiper2 {
+        width: 90%;
+        height: 100%;
+        background: #fff;
+
+    }
+
+    section.research .swiper2 .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #f5f5f5;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        border-radius: 15px;
+    }
+
+    section.research .swiper2 .swiper-slide > div {
+        width: 100%;
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(1) {
+        width: 100%;
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(1) > image {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(2) {
+        width: 100%;
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(2) {
+        width: 100%;
+        position: relative;
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(2) > span {
+        font-size: 11px;
+        font-family: "IRANSansWeb Medium", sans-serif;
+        color: white;
+        background-color: #00bfff;
+        display: block;
+        width: 80%;
+        height: 20px;
+        line-height: 20px;
+        border-radius: 3px;
+        text-align: center;
+        margin: 0 auto;
+        position: absolute;
+        z-index: 100;
+        top: -5%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(2) > h3 {
+        font-size: 13px;
+        font-family: "IRANSansWeb Medium", sans-serif;
+        color: #7d7d7d;
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(2) > p {
+        font-family: "IRANSansWeb Light", sans-serif;
+        font-size: 12px;
+        color: #777777;
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(2) > a {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 11px;
+        color: #fe4365;
+    }
+
+    section.research .swiper2 .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+/*end XL*/
+/*LG*/
+@media (min-width: 992px)  and (max-width: 1200px) {
+    section.research {
+        width: 100%;
+        margin-top: 150px;
+        overflow-x: hidden;
+    }
+
+    section.research > i {
+        color: #40e0d0;
+        font-size: 2rem;
+    }
+
+    section.research > div {
+        width: 200px;
+        height: 1px;
+        background-color: #dddddd;
+        position: relative;
+    }
+
+    section.research > div::after {
+        content: "";
+        width: 50px;
+        height: 3px;
+        background-color: #40e0d0;
+        position: absolute;
+        top: -100%;
+    }
+
+    section.research > h2 {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        color: #888888;
+        font-size: 30px;
+    }
+
+    section.research > a {
+        font-family: "IRANSansWeb Light", sans-serif;
+        color: #00bfff;
+        font-size: 13px;
+    }
+
+    section.research .swiper2 {
+        width: 90%;
+        height: 100%;
+        background: #fff;
+    }
+
+    section.research .swiper2 .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #f5f5f5;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        border-radius: 15px;
+    }
+
+    section.research .swiper2 .swiper-slide > div {
+        width: 100%;
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(1) {
+        width: 100%;
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(1) > image {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(2) {
+        width: 100%;
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(2) {
+        width: 100%;
+        position: relative;
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(2) > span {
+        font-size: 11px;
+        font-family: "IRANSansWeb Medium", sans-serif;
+        color: white;
+        background-color: #00bfff;
+        display: block;
+        width: 80%;
+        height: 20px;
+        line-height: 20px;
+        border-radius: 3px;
+        text-align: center;
+        margin: 0 auto;
+        position: absolute;
+        z-index: 100;
+        top: -5%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(2) > h3 {
+        font-size: 13px;
+        font-family: "IRANSansWeb Medium", sans-serif;
+        color: #7d7d7d;
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(2) > p {
+        font-family: "IRANSansWeb Light", sans-serif;
+        font-size: 12px;
+        color: #777777;
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(2) > a {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 11px;
+        color: #fe4365;
+    }
+
+    section.research .swiper2 .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+/*end LG*/
+/*MD*/
+@media (min-width: 768px) and (max-width: 992px) {
+    section.research {
+        width: 100%;
+        margin-top: 125px;
+        overflow-x: hidden;
+    }
+
+    section.research > i {
+        color: #40e0d0;
+        font-size: 2rem;
+    }
+
+    section.research > div {
+        width: 200px;
+        height: 1px;
+        background-color: #dddddd;
+        position: relative;
+    }
+
+    section.research > div::after {
+        content: "";
+        width: 50px;
+        height: 3px;
+        background-color: #40e0d0;
+        position: absolute;
+        top: -100%;
+    }
+
+    section.research > h2 {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        color: #888888;
+        font-size: 30px;
+    }
+
+    section.research > a {
+        font-family: "IRANSansWeb Light", sans-serif;
+        color: #00bfff;
+        font-size: 13px;
+    }
+
+    section.research .swiper2 {
+        width: 90%;
+        height: 100%;
+        background: #fff;
+    }
+
+    section.research .swiper2 .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #f5f5f5;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        border-radius: 15px;
+    }
+
+    section.research .swiper2 .swiper-slide > div {
+        width: 100%;
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(1) {
+        width: 100%;
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(1) > image {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(2) {
+        width: 100%;
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(2) {
+        width: 100%;
+        position: relative;
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(2) > span {
+        font-size: 9px;
+        font-family: "IRANSansWeb Medium", sans-serif;
+        color: white;
+        background-color: #00bfff;
+        display: block;
+        width: 80%;
+        height: 20px;
+        line-height: 20px;
+        border-radius: 3px;
+        text-align: center;
+        margin: 0 auto;
+        position: absolute;
+        z-index: 100;
+        top: -5%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(2) > h3 {
+        font-size: 11px;
+        font-family: "IRANSansWeb Medium", sans-serif;
+        color: #7d7d7d;
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(2) > p {
+        font-family: "IRANSansWeb Light", sans-serif;
+        font-size: 10px;
+        color: #777777;
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(2) > a {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 9px;
+        color: #fe4365;
+    }
+
+    section.research .swiper2 .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+/*end MD*/
+/*SM*/
+@media (min-width: 576px) and (max-width: 768px) {
+    section.research {
+        width: 100%;
+        margin-top: 50px;
+        overflow-x: hidden;
+    }
+
+    section.research > i {
+        color: #40e0d0;
+        font-size: 1.5rem;
+    }
+
+    section.research > div {
+        width: 150px;
+        height: 1px;
+        background-color: #dddddd;
+        position: relative;
+    }
+
+    section.research > div::after {
+        content: "";
+        width: 35px;
+        height: 3px;
+        background-color: #40e0d0;
+        position: absolute;
+        top: -100%;
+    }
+
+    section.research > h2 {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        color: #888888;
+        font-size: 25px;
+    }
+
+    section.research > a {
+        font-family: "IRANSansWeb Light", sans-serif;
+        color: #00bfff;
+        font-size: 12px;
+    }
+
+    section.research .swiper2 {
+        width: 90%;
+        height: 100%;
+        background: #fff;
+    }
+
+    section.research .swiper2 .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #f5f5f5;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        border-radius: 15px;
+    }
+
+    section.research .swiper2 .swiper-slide > div {
+        width: 100%;
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(1) {
+        width: 100%;
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(1) > image {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(2) {
+        width: 100%;
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(2) {
+        width: 100%;
+        position: relative;
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(2) > span {
+        font-size: 6px;
+        font-family: "IRANSansWeb Medium", sans-serif;
+        color: white;
+        background-color: #00bfff;
+        display: block;
+        width: 80%;
+        height: 20px;
+        line-height: 20px;
+        border-radius: 3px;
+        text-align: center;
+        margin: 0 auto;
+        position: absolute;
+        z-index: 100;
+        top: -5%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(2) > h3 {
+        font-size: 9px;
+        font-family: "IRANSansWeb Medium", sans-serif;
+        color: #7d7d7d;
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(2) > p {
+        font-family: "IRANSansWeb Light", sans-serif;
+        font-size: 8px;
+        color: #777777;
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(2) > a {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 7px;
+        color: #fe4365;
+    }
+
+    section.research .swiper2 .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+/*end SM*/
+/*XS*/
+@media (max-width: 576px) {
+    section.research {
+        width: 100%;
+        margin-top: 20px;
+        overflow-x: hidden;
+    }
+
+    section.research > i {
+        color: #40e0d0;
+        font-size: 1.5rem;
+    }
+
+    section.research > div {
+        width: 100px;
+        height: 1px;
+        background-color: #dddddd;
+        position: relative;
+    }
+
+    section.research > div::after {
+        content: "";
+        width: 25px;
+        height: 3px;
+        background-color: #40e0d0;
+        position: absolute;
+        top: -100%;
+    }
+
+    section.research > h2 {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        color: #888888;
+        font-size: 15px;
+    }
+
+    section.research > a {
+        font-family: "IRANSansWeb Light", sans-serif;
+        color: #00bfff;
+        font-size: 9px;
+    }
+
+    section.research .swiper2 {
+        width: 90%;
+        height: 100%;
+        background: #fff;
+    }
+
+    section.research .swiper2 .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #f5f5f5;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        border-radius: 15px;
+    }
+
+    section.research .swiper2 .swiper-slide > div {
+        width: 100%;
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(1) {
+        width: 100%;
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(1) > image {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(2) {
+        width: 100%;
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(2) {
+        width: 100%;
+        position: relative;
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(2) > span {
+        font-size: 5px;
+        font-family: "IRANSansWeb Medium", sans-serif;
+        color: white;
+        background-color: #00bfff;
+        display: block;
+        width: 80%;
+        height: 20px;
+        line-height: 20px;
+        border-radius: 3px;
+        text-align: center;
+        margin: 0 auto;
+        position: absolute;
+        z-index: 100;
+        top: -5%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(2) > h3 {
+        font-size: 7px;
+        font-family: "IRANSansWeb Medium", sans-serif;
+        color: #7d7d7d;
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(2) > p {
+        font-family: "IRANSansWeb Light", sans-serif;
+        font-size: 6px;
+        color: #777777;
+    }
+
+    section.research .swiper2 .swiper-slide > div > div:nth-of-type(2) > a {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 7px;
+        color: #fe4365;
+    }
+
+    section.research .swiper2 .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+/*end XS*/

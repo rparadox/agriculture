@@ -1,0 +1,672 @@
+/*XL*/
+@media (min-width: 1200px) {
+    section.course {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(1) {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(1) > h2 {
+        width: 100%;
+        font-family: "IRANSansWeb Bold", sans-serif;
+        font-size: 16px;
+        color: #40e0d0;
+    }
+
+    section.course > div:nth-of-type(1) > div {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(1) > div > span:nth-of-type(1) {
+        color: #bbbbbb;
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 13px;
+    }
+
+    section.course > div:nth-of-type(1) > div > span:nth-of-type(2) {
+        color: #333333;
+        font-size: 13px;
+        font-family: "IRANSansWeb Medium", sans-serif;
+    }
+
+    section.course > div:nth-of-type(3) {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(3) > p {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(3) > p > button {
+        outline: none;
+        border: 1px solid #dddddd;
+        background-color: white;
+        padding: 15px;
+        font-size: 12px;
+        font-family: "IRANSansWeb Medium", sans-serif;
+        color: #aaaaaa;
+    }
+
+    section.course > div:nth-of-type(3) > div {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(3) > div > div {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(3) > div > div > h3 {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 14px;
+        color: #aaaaaa;
+    }
+
+    section.course > div:nth-of-type(3) > div > div > ul {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(3) > div > div > ul > li {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #aaaaaa;
+    }
+
+    section.course > div:nth-of-type(3) > div > div > ul > li::marker {
+        color: #40e0d0;
+    }
+
+    section.course > div:nth-of-type(4) {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(4) > div:nth-of-type(1) {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(4) > div:nth-of-type(1) > h3 {
+        font-family: "IRANSansWeb Bold", sans-serif;
+        font-size: 13px;
+        color: #888888;
+    }
+
+    section.course > div:nth-of-type(4) > div:nth-of-type(1) > h3 > i {
+        font-size: 20px;
+        color: #40e0d0;
+    }
+
+    section.course > div:nth-of-type(4) > div:nth-of-type(1) > div {
+        background-color: #888888;
+        height: 1px;
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(4) > div:nth-of-type(1) > a {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #009acd;
+    }
+
+    section.course > div:nth-of-type(4) > div:not(:nth-of-type(1)) {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(4) > div:not(:nth-of-type(1)) > i {
+        font-size: 13px;
+        color: #aaaaaa;
+    }
+
+    section.course > div:nth-of-type(4) > div:not(:nth-of-type(1)) > h4 {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 13px;
+        color: #aaaaaa;
+    }
+
+    section.course > div:nth-of-type(4) > div:not(:nth-of-type(1)) > a {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 13px;
+        color: #fe4365;
+    }
+}
+/*end XL*/
+/*LG*/
+@media (min-width: 992px) and (max-width: 1200px) {
+    section.course {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(1) {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(1) > h2 {
+        width: 100%;
+        font-family: "IRANSansWeb Bold", sans-serif;
+        font-size: 16px;
+        color: #40e0d0;
+    }
+
+    section.course > div:nth-of-type(1) > div {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(1) > div > span:nth-of-type(1) {
+        color: #bbbbbb;
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 13px;
+    }
+
+    section.course > div:nth-of-type(1) > div > span:nth-of-type(2) {
+        color: #333333;
+        font-size: 13px;
+        font-family: "IRANSansWeb Medium", sans-serif;
+    }
+
+    section.course > div:nth-of-type(3) {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(3) > p {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(3) > p > button {
+        outline: none;
+        border: 1px solid #dddddd;
+        background-color: white;
+        padding: 15px;
+        font-size: 12px;
+        font-family: "IRANSansWeb Medium", sans-serif;
+        color: #aaaaaa;
+    }
+
+    section.course > div:nth-of-type(3) > div {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(3) > div > div {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(3) > div > div > h3 {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 14px;
+        color: #aaaaaa;
+    }
+
+    section.course > div:nth-of-type(3) > div > div > ul {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(3) > div > div > ul > li {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #aaaaaa;
+    }
+
+    section.course > div:nth-of-type(3) > div > div > ul > li::marker {
+        color: #40e0d0;
+    }
+
+    section.course > div:nth-of-type(4) {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(4) > div:nth-of-type(1) {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(4) > div:nth-of-type(1) > h3 {
+        font-family: "IRANSansWeb Bold", sans-serif;
+        font-size: 13px;
+        color: #888888;
+    }
+
+    section.course > div:nth-of-type(4) > div:nth-of-type(1) > h3 > i {
+        font-size: 20px;
+        color: #40e0d0;
+    }
+
+    section.course > div:nth-of-type(4) > div:nth-of-type(1) > div {
+        background-color: #888888;
+        height: 1px;
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(4) > div:nth-of-type(1) > a {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #009acd;
+    }
+
+    section.course > div:nth-of-type(4) > div:not(:nth-of-type(1)) {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(4) > div:not(:nth-of-type(1)) > i {
+        font-size: 13px;
+        color: #aaaaaa;
+    }
+
+    section.course > div:nth-of-type(4) > div:not(:nth-of-type(1)) > h4 {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 13px;
+        color: #aaaaaa;
+    }
+
+    section.course > div:nth-of-type(4) > div:not(:nth-of-type(1)) > a {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 13px;
+        color: #fe4365;
+    }
+}
+/*end LG*/
+/*MD*/
+@media (min-width: 768px) and (max-width: 992px) {
+    section.course {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(1) {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(1) > h2 {
+        width: 100%;
+        font-family: "IRANSansWeb Bold", sans-serif;
+        font-size: 16px;
+        color: #40e0d0;
+    }
+
+    section.course > div:nth-of-type(1) > div {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(1) > div > span:nth-of-type(1) {
+        color: #bbbbbb;
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 13px;
+    }
+
+    section.course > div:nth-of-type(1) > div > span:nth-of-type(2) {
+        color: #333333;
+        font-size: 13px;
+        font-family: "IRANSansWeb Medium", sans-serif;
+    }
+
+    section.course > div:nth-of-type(3) {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(3) > p {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(3) > p > button {
+        outline: none;
+        border: 1px solid #dddddd;
+        background-color: white;
+        padding: 15px;
+        font-size: 12px;
+        font-family: "IRANSansWeb Medium", sans-serif;
+        color: #aaaaaa;
+    }
+
+    section.course > div:nth-of-type(3) > div {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(3) > div > div {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(3) > div > div > h3 {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 14px;
+        color: #aaaaaa;
+    }
+
+    section.course > div:nth-of-type(3) > div > div > ul {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(3) > div > div > ul > li {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #aaaaaa;
+    }
+
+    section.course > div:nth-of-type(3) > div > div > ul > li::marker {
+        color: #40e0d0;
+    }
+
+    section.course > div:nth-of-type(4) {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(4) > div:nth-of-type(1) {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(4) > div:nth-of-type(1) > h3 {
+        font-family: "IRANSansWeb Bold", sans-serif;
+        font-size: 13px;
+        color: #888888;
+    }
+
+    section.course > div:nth-of-type(4) > div:nth-of-type(1) > h3 > i {
+        font-size: 20px;
+        color: #40e0d0;
+    }
+
+    section.course > div:nth-of-type(4) > div:nth-of-type(1) > div {
+        background-color: #888888;
+        height: 1px;
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(4) > div:nth-of-type(1) > a {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #009acd;
+    }
+
+    section.course > div:nth-of-type(4) > div:not(:nth-of-type(1)) {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(4) > div:not(:nth-of-type(1)) > i {
+        font-size: 13px;
+        color: #aaaaaa;
+    }
+
+    section.course > div:nth-of-type(4) > div:not(:nth-of-type(1)) > h4 {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 13px;
+        color: #aaaaaa;
+    }
+
+    section.course > div:nth-of-type(4) > div:not(:nth-of-type(1)) > a {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 13px;
+        color: #fe4365;
+    }
+}
+/*end MD*/
+/*SM*/
+@media (min-width: 576px) and (max-width: 768px) {
+    section.course {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(1) {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(1) > h2 {
+        width: 100%;
+        font-family: "IRANSansWeb Bold", sans-serif;
+        font-size: 16px;
+        color: #40e0d0;
+    }
+
+    section.course > div:nth-of-type(1) > div {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(1) > div > span:nth-of-type(1) {
+        color: #bbbbbb;
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 13px;
+    }
+
+    section.course > div:nth-of-type(1) > div > span:nth-of-type(2) {
+        color: #333333;
+        font-size: 13px;
+        font-family: "IRANSansWeb Medium", sans-serif;
+    }
+
+    section.course > div:nth-of-type(3) {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(3) > p {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(3) > p > button {
+        outline: none;
+        border: 1px solid #dddddd;
+        background-color: white;
+        padding: 15px;
+        font-size: 12px;
+        font-family: "IRANSansWeb Medium", sans-serif;
+        color: #aaaaaa;
+    }
+
+    section.course > div:nth-of-type(3) > div {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(3) > div > div {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(3) > div > div > h3 {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 14px;
+        color: #aaaaaa;
+    }
+
+    section.course > div:nth-of-type(3) > div > div > ul {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(3) > div > div > ul > li {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #aaaaaa;
+    }
+
+    section.course > div:nth-of-type(3) > div > div > ul > li::marker {
+        color: #40e0d0;
+    }
+
+    section.course > div:nth-of-type(4) {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(4) > div:nth-of-type(1) {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(4) > div:nth-of-type(1) > h3 {
+        font-family: "IRANSansWeb Bold", sans-serif;
+        font-size: 11px;
+        color: #888888;
+    }
+
+    section.course > div:nth-of-type(4) > div:nth-of-type(1) > h3 > i {
+        font-size: 20px;
+        color: #40e0d0;
+    }
+
+    section.course > div:nth-of-type(4) > div:nth-of-type(1) > div {
+        background-color: #888888;
+        height: 1px;
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(4) > div:nth-of-type(1) > a {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #009acd;
+    }
+
+    section.course > div:nth-of-type(4) > div:not(:nth-of-type(1)) {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(4) > div:not(:nth-of-type(1)) > i {
+        font-size: 13px;
+        color: #aaaaaa;
+    }
+
+    section.course > div:nth-of-type(4) > div:not(:nth-of-type(1)) > h4 {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 13px;
+        color: #aaaaaa;
+    }
+
+    section.course > div:nth-of-type(4) > div:not(:nth-of-type(1)) > a {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #fe4365;
+    }
+
+    .rounded-0 {
+        display: block;
+        width: 100%;
+        margin-bottom: 2px;
+    }
+}
+/*end SM*/
+/*XS*/
+@media (max-width: 576px) {
+    section.course {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(1) {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(1) > h2 {
+        width: 100%;
+        font-family: "IRANSansWeb Bold", sans-serif;
+        font-size: 16px;
+        color: #40e0d0;
+    }
+
+    section.course > div:nth-of-type(1) > div {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(1) > div > span:nth-of-type(1) {
+        color: #bbbbbb;
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 13px;
+    }
+
+    section.course > div:nth-of-type(1) > div > span:nth-of-type(2) {
+        color: #333333;
+        font-size: 13px;
+        font-family: "IRANSansWeb Medium", sans-serif;
+    }
+
+    section.course > div:nth-of-type(3) {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(3) > p {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(3) > p > button {
+        outline: none;
+        border: 1px solid #dddddd;
+        background-color: white;
+        padding: 15px;
+        font-size: 12px;
+        font-family: "IRANSansWeb Medium", sans-serif;
+        color: #aaaaaa;
+    }
+
+    section.course > div:nth-of-type(3) > div {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(3) > div > div {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(3) > div > div > h3 {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 14px;
+        color: #aaaaaa;
+    }
+
+    section.course > div:nth-of-type(3) > div > div > ul {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(3) > div > div > ul > li {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 12px;
+        color: #aaaaaa;
+    }
+
+    section.course > div:nth-of-type(3) > div > div > ul > li::marker {
+        color: #40e0d0;
+    }
+
+    section.course > div:nth-of-type(4) {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(4) > div:nth-of-type(1) {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(4) > div:nth-of-type(1) > h3 {
+        font-family: "IRANSansWeb Bold", sans-serif;
+        font-size: 8px;
+        color: #888888;
+    }
+
+    section.course > div:nth-of-type(4) > div:nth-of-type(1) > h3 > i {
+        font-size: 15px;
+        color: #40e0d0;
+    }
+
+    section.course > div:nth-of-type(4) > div:nth-of-type(1) > div {
+        background-color: #888888;
+        height: 1px;
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(4) > div:nth-of-type(1) > a {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 9px;
+        color: #009acd;
+    }
+
+    section.course > div:nth-of-type(4) > div:not(:nth-of-type(1)) {
+        width: 100%;
+    }
+
+    section.course > div:nth-of-type(4) > div:not(:nth-of-type(1)) > i {
+        font-size: 11px;
+        color: #aaaaaa;
+    }
+
+    section.course > div:nth-of-type(4) > div:not(:nth-of-type(1)) > h4 {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 10px;
+        color: #aaaaaa;
+    }
+
+    section.course > div:nth-of-type(4) > div:not(:nth-of-type(1)) > a {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 8px;
+        color: #fe4365;
+    }
+
+    .rounded-0 {
+        display: block;
+        width: 100%;
+        margin-bottom: 2px;
+    }
+}
+/*end XS*/

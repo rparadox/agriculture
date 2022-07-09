@@ -1,0 +1,8 @@
+section.paragraph{
+    width: 100%;
+}
+section.paragraph>p{
+    font-family: "IRANSansWeb Light",sans-serif;
+    font-size: 14px;
+    color: #777777;
+}

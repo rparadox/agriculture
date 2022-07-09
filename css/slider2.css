@@ -1,0 +1,102 @@
+section.slider2 .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+section.slider2 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    position: relative;
+}
+
+section.slider2 .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section.slider2 .swiper-slide>div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    top: 0;
+
+}
+
+section.slider2 .swiper-slide>div>div{
+    height: 160px;
+}
+section.slider2 .swiper-slide>div>div:nth-of-type(1){
+    background-color: #27ae60;
+}
+section.slider2 .swiper-slide>div>div:nth-of-type(2){
+    background-color: #2980b9;
+}
+section.slider2 .swiper-slide>div>div:nth-of-type(3){
+    background-color: #16a085;
+}
+
+section.slider2 .swiper-button-next, .swiper-button-prev {
+    color: #7cc576;
+}
+section.slider2 .swiper-slide>div>div>h2{
+    font-size: 30px;
+    font-family: "IRANSansWeb Medium",sans-serif;
+}
+section.slider2 .swiper-slide>div>div>p{
+    font-size: 14px;
+    font-family: "IRANSansWeb Light",sans-serif;
+}
+/*MD*/
+@media (min-width: 768px) and (max-width:992px)  {
+    section.slider2 .swiper-slide>div>div>h2{
+        font-size: 25px;
+    }
+    section.slider2 .swiper-slide>div>div>p{
+        font-size: 12px;
+    }
+}
+/*end MD*/
+/*SM*/
+@media (min-width: 576px) and (max-width:768px)  {
+    section.slider2 .swiper-slide>div>div{
+        height: 85px;
+    }
+    section.slider2 .swiper-slide>div>div>h2{
+        font-size: 12px !important;
+    }
+    section.slider2 .swiper-slide>div>div>p{
+        font-size: 7px;
+    }
+}
+/*end SM*/
+/*XS*/
+@media(max-width:576px)  {
+    section.slider2 .swiper-slide>div>div{
+        height: 85px;
+    }
+    section.slider2 .swiper-slide>div>div>h2{
+        font-size: 11px !important;
+    }
+    section.slider2 .swiper-slide>div>div>p{
+        font-size: 5px;
+    }
+}
+/*end XS*/

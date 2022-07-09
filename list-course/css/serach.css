@@ -1,0 +1,56 @@
+section.search {
+    width: 100%;
+}
+
+section.search {
+    width: 100%;
+}
+
+section.search > div {
+    width: 100%;
+}
+
+section.search > div > form {
+    width: 100%;
+    height: 50px;
+}
+
+section.search > div > form > label {
+    width: 100%;
+    height: inherit;
+    position: relative;
+    cursor: pointer;
+}
+
+section.search > div > form > label > input {
+    height: inherit;
+    outline: none;
+    border: 1px solid #eeeeee;
+    padding-right: 10px;
+}
+
+section.search > div > form > label > input::placeholder {
+    font-family: "IRANSansWeb Bold", sans-serif;
+    font-size: 12px;
+    color: #eeeeee;
+    transition: all 300ms linear;
+}
+
+section.search > div > form > label > input:focus::placeholder {
+    color: #8f8f8f;
+}
+
+section.search > div > form > label:nth-of-type(2) > input {
+    color: #eeeeee;
+    border: none;
+    outline: none;
+}
+
+section.search > div > form > label:nth-of-type(2) > i {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 20px;
+    color: #aeaeae;
+}

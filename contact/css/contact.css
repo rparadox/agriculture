@@ -1,0 +1,654 @@
+/*XL*/
+@media (min-width: 1200px) {
+    section.contact {
+        width: 100%;
+    }
+
+    section.contact > div:nth-of-type(1) {
+        width: 100%;
+    }
+
+    section.contact > div:nth-of-type(1) > div {
+        width: 100%;
+    }
+
+    section.contact > div:nth-of-type(1) > div > i {
+        color: #aaaaaa;
+        font-size: 13px;
+    }
+
+    section.contact > div:nth-of-type(1) > div > span:nth-of-type(1) {
+        font-family: "IRANSansWeb Light", sans-serif;
+        color: #aaaaaa;
+        font-size: 14px;
+    }
+
+    section.contact > div:nth-of-type(1) > div > span:nth-of-type(2) {
+        font-family: "IRANSansWeb Light", sans-serif;
+        font-size: 14px;
+        color: #333333;
+    }
+
+    section.contact > div:nth-of-type(3) {
+        margin-top: 80px;
+    }
+
+    section.contact > div:nth-of-type(4) {
+        margin-top: 80px;
+    }
+
+    section.contact > div:nth-of-type(4) > h3 {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 17px;
+        color: #888888;
+        font-weight: normal;
+    }
+
+    section.contact > div:nth-of-type(4) > form {
+        width: 100%;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(1) {
+        width: 100%;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(1) > label {
+        width: 100%;
+        height: 40px;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(1) > label > input {
+        border: 1px solid #dddddd;
+        outline: none;
+        height: inherit;
+        width: 100%;
+        padding-right: 10px;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(1) > label > input::placeholder {
+        font-family: "IRANSansWeb Light", sans-serif;
+        font-size: 13px;
+        color: #cccccc;
+        transition: all 300ms linear;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(1) > label > input:focus::placeholder {
+        color: #595959;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(2) {
+        width: 100%;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(2) > label {
+        width: 100%;
+        height: 97%;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(2) > label > textarea {
+        border: 1px solid #dddddd;
+        outline: none;
+        resize: none;
+        height: inherit;
+        width: 100%;
+        padding-right: 10px;
+        padding-top: 10px;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(2) > label > textarea::placeholder {
+        font-family: "IRANSansWeb Light", sans-serif;
+        font-size: 13px;
+        color: #cccccc;
+        transition: all 300ms linear;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(2) > label > textarea:focus::placeholder {
+        color: #595959;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(3) {
+        width: 100%;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(3) > label {
+        width: 80px;
+        background-color: #40e0d0;
+        cursor: pointer;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(3) > label > i {
+        color: white;
+        font-size: 16px;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(3) > label > input {
+        color: white;
+        font-size: 12px;
+        font-family: "IRANSansWeb Medium", sans-serif;
+    }
+}
+/*end XL*/
+/*LG*/
+@media (min-width: 992px) and (max-width: 1200px) {
+    section.contact {
+        width: 100%;
+    }
+
+    section.contact > div:nth-of-type(1) {
+        width: 100%;
+    }
+
+    section.contact > div:nth-of-type(1) > div {
+        width: 100%;
+    }
+
+    section.contact > div:nth-of-type(1) > div > i {
+        color: #aaaaaa;
+        font-size: 13px;
+    }
+
+    section.contact > div:nth-of-type(1) > div > span:nth-of-type(1) {
+        font-family: "IRANSansWeb Light", sans-serif;
+        color: #aaaaaa;
+        font-size: 14px;
+    }
+
+    section.contact > div:nth-of-type(1) > div > span:nth-of-type(2) {
+        font-family: "IRANSansWeb Light", sans-serif;
+        font-size: 14px;
+        color: #333333;
+    }
+
+    section.contact > div:nth-of-type(3) {
+        margin-top: 80px;
+    }
+    section.contact > div:nth-of-type(3)>img {
+        width: 700px;
+        object-fit: cover;
+    }
+
+    section.contact > div:nth-of-type(4) {
+        margin-top: 80px;
+    }
+
+    section.contact > div:nth-of-type(4) > h3 {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 17px;
+        color: #888888;
+        font-weight: normal;
+    }
+
+    section.contact > div:nth-of-type(4) > form {
+        width: 100%;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(1) {
+        width: 100%;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(1) > label {
+        width: 100%;
+        height: 40px;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(1) > label > input {
+        border: 1px solid #dddddd;
+        outline: none;
+        height: inherit;
+        width: 100%;
+        padding-right: 10px;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(1) > label > input::placeholder {
+        font-family: "IRANSansWeb Light", sans-serif;
+        font-size: 13px;
+        color: #cccccc;
+        transition: all 300ms linear;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(1) > label > input:focus::placeholder {
+        color: #595959;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(2) {
+        width: 100%;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(2) > label {
+        width: 100%;
+        height: 97%;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(2) > label > textarea {
+        border: 1px solid #dddddd;
+        outline: none;
+        resize: none;
+        height: inherit;
+        width: 100%;
+        padding-right: 10px;
+        padding-top: 10px;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(2) > label > textarea::placeholder {
+        font-family: "IRANSansWeb Light", sans-serif;
+        font-size: 13px;
+        color: #cccccc;
+        transition: all 300ms linear;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(2) > label > textarea:focus::placeholder {
+        color: #595959;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(3) {
+        width: 100%;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(3) > label {
+        width: 80px;
+        background-color: #40e0d0;
+        cursor: pointer;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(3) > label > i {
+        color: white;
+        font-size: 16px;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(3) > label > input {
+        color: white;
+        font-size: 12px;
+        font-family: "IRANSansWeb Medium", sans-serif;
+    }
+}
+/*end LG*/
+/*MD*/
+@media (min-width: 768px) and (max-width: 992px) {
+    section.contact {
+        width: 100%;
+    }
+
+    section.contact > div:nth-of-type(1) {
+        width: 100%;
+    }
+
+    section.contact > div:nth-of-type(1) > div {
+        width: 100%;
+    }
+
+    section.contact > div:nth-of-type(1) > div > i {
+        color: #aaaaaa;
+        font-size: 13px;
+    }
+
+    section.contact > div:nth-of-type(1) > div > span:nth-of-type(1) {
+        font-family: "IRANSansWeb Light", sans-serif;
+        color: #aaaaaa;
+        font-size: 14px;
+    }
+
+    section.contact > div:nth-of-type(1) > div > span:nth-of-type(2) {
+        font-family: "IRANSansWeb Light", sans-serif;
+        font-size: 14px;
+        color: #333333;
+    }
+
+    section.contact > div:nth-of-type(3) {
+        margin-top: 80px;
+    }
+
+    section.contact > div:nth-of-type(4) {
+        margin-top: 80px;
+    }
+
+    section.contact > div:nth-of-type(4) > h3 {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 17px;
+        color: #888888;
+        font-weight: normal;
+    }
+
+    section.contact > div:nth-of-type(4) > form {
+        width: 100%;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(1) {
+        width: 100%;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(1) > label {
+        width: 100%;
+        height: 40px;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(1) > label > input {
+        border: 1px solid #dddddd;
+        outline: none;
+        height: inherit;
+        width: 100%;
+        padding-right: 10px;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(1) > label > input::placeholder {
+        font-family: "IRANSansWeb Light", sans-serif;
+        font-size: 13px;
+        color: #cccccc;
+        transition: all 300ms linear;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(1) > label > input:focus::placeholder {
+        color: #595959;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(2) {
+        width: 100%;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(2) > label {
+        width: 100%;
+        height: 97%;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(2) > label > textarea {
+        border: 1px solid #dddddd;
+        outline: none;
+        resize: none;
+        height: inherit;
+        width: 100%;
+        padding-right: 10px;
+        padding-top: 10px;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(2) > label > textarea::placeholder {
+        font-family: "IRANSansWeb Light", sans-serif;
+        font-size: 13px;
+        color: #cccccc;
+        transition: all 300ms linear;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(2) > label > textarea:focus::placeholder {
+        color: #595959;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(3) {
+        width: 100%;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(3) > label {
+        width: 80px;
+        background-color: #40e0d0;
+        cursor: pointer;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(3) > label > i {
+        color: white;
+        font-size: 16px;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(3) > label > input {
+        color: white;
+        font-size: 12px;
+        font-family: "IRANSansWeb Medium", sans-serif;
+    }
+}
+/*end MD*/
+/*SM*/
+@media (min-width: 576px) and (max-width: 768px) {
+    section.contact {
+        width: 100%;
+    }
+
+    section.contact > div:nth-of-type(1) {
+        width: 100%;
+    }
+
+    section.contact > div:nth-of-type(1) > div {
+        width: 100%;
+    }
+
+    section.contact > div:nth-of-type(1) > div > i {
+        color: #aaaaaa;
+        font-size: 13px;
+    }
+
+    section.contact > div:nth-of-type(1) > div > span:nth-of-type(1) {
+        font-family: "IRANSansWeb Light", sans-serif;
+        color: #aaaaaa;
+        font-size: 12px;
+    }
+
+    section.contact > div:nth-of-type(1) > div > span:nth-of-type(2) {
+        font-family: "IRANSansWeb Light", sans-serif;
+        font-size: 11px;
+        color: #333333;
+    }
+
+    section.contact > div:nth-of-type(3) {
+        margin-top: 80px;
+    }
+
+    section.contact > div:nth-of-type(4) {
+        margin-top: 80px;
+    }
+
+    section.contact > div:nth-of-type(4) > h3 {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 17px;
+        color: #888888;
+        font-weight: normal;
+    }
+
+    section.contact > div:nth-of-type(4) > form {
+        width: 100%;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(1) {
+        width: 100%;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(1) > label {
+        width: 100%;
+        height: 40px;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(1) > label > input {
+        border: 1px solid #dddddd;
+        outline: none;
+        height: inherit;
+        width: 100%;
+        padding-right: 10px;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(1) > label > input::placeholder {
+        font-family: "IRANSansWeb Light", sans-serif;
+        font-size: 13px;
+        color: #cccccc;
+        transition: all 300ms linear;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(1) > label > input:focus::placeholder {
+        color: #595959;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(2) {
+        width: 100%;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(2) > label {
+        width: 100%;
+        height: 97%;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(2) > label > textarea {
+        border: 1px solid #dddddd;
+        outline: none;
+        resize: none;
+        height: inherit;
+        width: 100%;
+        padding-right: 10px;
+        padding-top: 10px;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(2) > label > textarea::placeholder {
+        font-family: "IRANSansWeb Light", sans-serif;
+        font-size: 13px;
+        color: #cccccc;
+        transition: all 300ms linear;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(2) > label > textarea:focus::placeholder {
+        color: #595959;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(3) {
+        width: 100%;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(3) > label {
+        width: 80px;
+        background-color: #40e0d0;
+        cursor: pointer;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(3) > label > i {
+        color: white;
+        font-size: 16px;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(3) > label > input {
+        color: white;
+        font-size: 12px;
+        font-family: "IRANSansWeb Medium", sans-serif;
+    }
+}
+/*en SM*/
+/*XS*/
+@media (max-width: 576px) {
+    section.contact {
+        width: 100%;
+    }
+
+    section.contact > div:nth-of-type(1) {
+        width: 100%;
+    }
+
+    section.contact > div:nth-of-type(1) > div {
+        width: 100%;
+    }
+
+    section.contact > div:nth-of-type(1) > div > i {
+        color: #aaaaaa;
+        font-size: 9px;
+    }
+
+    section.contact > div:nth-of-type(1) > div > span:nth-of-type(1) {
+        font-family: "IRANSansWeb Light", sans-serif;
+        color: #aaaaaa;
+        font-size: 8px;
+    }
+
+    section.contact > div:nth-of-type(1) > div > span:nth-of-type(2) {
+        font-family: "IRANSansWeb Light", sans-serif;
+        font-size: 8px;
+        color: #333333;
+    }
+
+    section.contact > div:nth-of-type(3) {
+        margin-top: 80px;
+    }
+
+    section.contact > div:nth-of-type(4) {
+        margin-top: 80px;
+    }
+
+    section.contact > div:nth-of-type(4) > h3 {
+        font-family: "IRANSansWeb Medium", sans-serif;
+        font-size: 17px;
+        color: #888888;
+        font-weight: normal;
+    }
+
+    section.contact > div:nth-of-type(4) > form {
+        width: 100%;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(1) {
+        width: 100%;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(1) > label {
+        width: 100%;
+        height: 40px;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(1) > label > input {
+        border: 1px solid #dddddd;
+        outline: none;
+        height: inherit;
+        width: 100%;
+        padding-right: 10px;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(1) > label > input::placeholder {
+        font-family: "IRANSansWeb Light", sans-serif;
+        font-size: 13px;
+        color: #cccccc;
+        transition: all 300ms linear;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(1) > label > input:focus::placeholder {
+        color: #595959;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(2) {
+        width: 100%;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(2) > label {
+        width: 100%;
+        height: 97%;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(2) > label > textarea {
+        border: 1px solid #dddddd;
+        outline: none;
+        resize: none;
+        height: inherit;
+        width: 100%;
+        padding-right: 10px;
+        padding-top: 10px;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(2) > label > textarea::placeholder {
+        font-family: "IRANSansWeb Light", sans-serif;
+        font-size: 13px;
+        color: #cccccc;
+        transition: all 300ms linear;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(2) > label > textarea:focus::placeholder {
+        color: #595959;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(3) {
+        width: 100%;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(3) > label {
+        width: 80px;
+        background-color: #40e0d0;
+        cursor: pointer;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(3) > label > i {
+        color: white;
+        font-size: 16px;
+    }
+
+    section.contact > div:nth-of-type(4) > form > div:nth-of-type(3) > label > input {
+        color: white;
+        font-size: 12px;
+        font-family: "IRANSansWeb Medium", sans-serif;
+    }
+}
+/*end XS*/

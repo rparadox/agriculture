@@ -1,0 +1,30 @@
+section.breadcrumb {
+    width: 100%;
+    background-color: #eeeeee;
+}
+
+section.breadcrumb > div > a {
+    text-decoration: none;
+    font-size: 13px;
+    font-family: "IRANSansWeb Bold", sans-serif;
+}
+
+section.breadcrumb > div > a:nth-of-type(1) {
+    color: #cccccc;
+}
+
+section.breadcrumb > div > a:nth-of-type(2) {
+    color: #cccccc;
+}
+
+section.breadcrumb > div > a:nth-of-type(3) {
+    color: #cccccc;
+}
+
+section.breadcrumb > div > a:nth-of-type(4) {
+    color: #cccccc;
+}
+
+section.breadcrumb > div > span {
+    color: #aaaaaa;
+}
